@@ -222,3 +222,63 @@ section {
 .dn-btn {
     padding: 18px 34px;
 }
+
+/* Subscribe Style */
+
+.subscribe-container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 80px 0;
+    text-align: center;
+}
+
+form {
+    display: flex;
+}
+.form-input {
+    flex-grow: 2;
+    height: 55px;
+    border: none;
+    font-size: 20px;
+    padding: 18px 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.form-btn {
+    padding: 17px 34px;
+    font-size: 18px;
+    border: none;
+    background-color: #006a50;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 24px;
+}
+
+/* Footer Style */
+
+footer {
+    margin: 150px auto 50px;
+    text-align: center;
+}
+footer .ft-title {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+footer hr {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0px 10px;
+}
+footer ul li a img {
+    text-decoration: none;
+
+    margin: 32px 0;
+}
